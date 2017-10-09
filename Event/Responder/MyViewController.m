@@ -26,8 +26,7 @@
     [super viewDidLoad];
     
     MyRedView *redView = [[MyRedView alloc] init];
-    redView.center = self.view.center;
-    redView.bounds = CGRectMake(0, 0, 100, 100);
+    redView.frame = CGRectMake(64, 64, 100, 100);
     [self.view addSubview:redView];
 }
 
